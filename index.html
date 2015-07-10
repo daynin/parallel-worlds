@@ -88,10 +88,10 @@
         <pre>
           <code data-trim style="font-size: 16px;">
 $('#item_kolich').keyup(function() {
-    if ($(this).val() && parseInt($('.hideoneprice').html()) > 0) {
-        $(this).val(parseInt($(this).val()));
-        $('.oneprice').html(stis(parseInt($('.hideoneprice').html()) * $(this).val()));
-    }
+  if ($(this).val() && parseInt($('.hideoneprice').html()) > 0) {
+    $(this).val(parseInt($(this).val()));
+    $('.oneprice').html(stis(parseInt($('.hideoneprice').html()) * $(this).val()));
+  }
 });
           </code>
         </pre>
